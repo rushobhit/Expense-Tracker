@@ -5,7 +5,7 @@
 ```mermaid
 flowchart LR
     User(["👤 User\n(Actor)"])
-    Spring(["⚙️ Spring Boot System\n(System Actor)"])
+    Spring(["⚙️ Administrator\n(Behind the Scene Actor)"])
 
     subgraph System["Expense Tracker System"]
         UC1["View All Expenses\nGET /"]
